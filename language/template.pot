@@ -596,3 +596,7 @@ msgstr ""
 #: config/module.config.php:105
 msgid "Loading results…"
 msgstr ""
+
+#: view/faceted-browse/site/page/facets.phtml:38
+msgid "Clear all"
+msgstr ""

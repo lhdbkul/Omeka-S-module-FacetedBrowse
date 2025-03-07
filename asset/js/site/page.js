@@ -107,6 +107,19 @@ const renderCategories = function() {
     }).fail(failCategory);
 };
 
+/**
+ * Toggle visibility of the "Clear All" button.
+ * Hide the button if no checkbox or radio inputs are present in the facets.
+ * Show the button otherwise.
+ */
+const toggleClearButton = function() {
+    if ($('.facet input[type="checkbox"], .facet input[type="radio"]').length === 0) {
+        $('#facets-reset').hide();
+    } else {
+        $('#facets-reset').show();
+    }
+};
+
 // First, initialize the state.
 FacetedBrowse.initState();
 
@@ -134,6 +147,7 @@ if (FacetedBrowse.getState('categoryId')) {
     $.get(urlFacets, {category_id: FacetedBrowse.getState('categoryId')}).done(function(html) {
         sectionSidebar.html(html);
         applyPreviousState();
+        toggleClearButton();
     }).fail(failFacet);
 } else if (container.data('categoryId')) {
     // There is one category. Skip categories list and show facets list.
@@ -141,6 +155,7 @@ if (FacetedBrowse.getState('categoryId')) {
         sectionSidebar.html(html);
         applyPreviousState();
         $('#categories-return').hide();
+        toggleClearButton();
     }).fail(failFacet);
 } else {
     // There is more than one category. Show category list.
@@ -154,6 +169,7 @@ container.on('click', '.category', function(e) {
     FacetedBrowse.resetState(thisCategory.data('categoryId'));
     $.get(urlFacets, {category_id: thisCategory.data('categoryId')}).done(function(html) {
         sectionSidebar.html(html);
+        toggleClearButton();
         sectionSidebar.find('.select-list').each(function() {
             // Must update the select lists so they are truncated.
             FacetedBrowse.updateSelectList($(this));
@@ -172,6 +188,18 @@ container.on('click', '#categories-return', function(e) {
     e.preventDefault();
     FacetedBrowse.resetState();
     renderCategories();
+    $('#facets-reset').hide();
+});
+
+// Handle clear all on facets.
+container.on('click', '#facets-reset', function(e) {
+    e.preventDefault();
+    FacetedBrowse.resetState();
+    document.querySelectorAll('.facet input[type="checkbox"]').forEach(input => input.checked = false);
+    document.querySelectorAll('.facet select').forEach(select => select.selectedIndex = 0);
+    document.querySelectorAll('.facet input[type="text"]').forEach(input => input.value = '');
+    document.querySelectorAll('.facet input[type="radio"]').forEach(input => input.checked = false);
+    FacetedBrowse.triggerStateChange();
 });
 
 // Handle pagination next button.
