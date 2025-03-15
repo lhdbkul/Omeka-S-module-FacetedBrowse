@@ -48,6 +48,11 @@
     display: inline-block;
 }
 
+#facets-reset {
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
 #categories li {
     border-bottom: 1px solid rgba(0,0,0,.08);
     margin-bottom: .5rem;

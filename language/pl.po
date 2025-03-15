@@ -6,20 +6,21 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-18 13:46-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2025-02-28 21:30+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
 
 #: src/Controller/SiteAdmin/PageController.php:87
 msgid "Add it to site navigation?"
-msgstr ""
+msgstr "Dodać do nawigacji na stronie?"
 
 #: src/FacetType/Value.php:108
 msgid ""
@@ -38,68 +39,83 @@ msgid ""
 "value (usually the property label), separated by a single space.</li>\n"
 "            </ul>"
 msgstr ""
+"\n"
+"            <p>Wprowadź wartości, oddzielone nowymi liniami. Format każdej "
+"wartości zależy od typu zapytania:</p>\n"
+"            <ul>\n"
+"                <li>„Jest dokładnie”: wprowadź wartość, która dokładnie "
+"odpowiada wartości właściwości.</li>\n"
+"                <li>„Zawiera”: wprowadź wartość, która pasuje do dowolnej "
+"części wartości właściwości.</li>\n"
+"                <li>„Jest zasobem o ID”: wprowadź identyfikator zasobu, a "
+"następnie dowolną wartość (zwykle tytuł zasobu), oddzielone pojedynczą "
+"spacją.</li>\n"
+"                <li>„Ma dowolną wartość”: wprowadź identyfikator "
+"właściwości, a następnie dowolną wartość (zwykle etykietę właściwości), "
+"oddzielone pojedynczą spacją.</li>\n"
+"                </ul>"
 
 #: view/common/faceted-browse/facet-data-form/item-set.phtml:5
 msgid "Show all available item sets."
-msgstr ""
+msgstr "Pokaż wszystkie dostępne zestawy elementów."
 
 #: view/common/faceted-browse/facet-data-form/resource-class.phtml:5
 msgid "Show all available classes."
-msgstr ""
+msgstr "Pokaż wszystkie dostępne klasy."
 
 #: view/common/faceted-browse/facet-data-form/resource-template.phtml:5
 msgid "Show all available templates."
-msgstr ""
+msgstr "Pokaż wszystkie dostępne szablony."
 
 #: view/common/faceted-browse/facet-data-form/value.phtml:7
 msgid "Show all available values."
-msgstr ""
+msgstr "Pokaż wszystkie dostępne wartości."
 
 #: view/common/faceted-browse/facet-render/item-set.phtml:19
 #: view/common/faceted-browse/facet-render/resource-class.phtml:19
 #: view/common/faceted-browse/facet-render/resource-template.phtml:19
 #: view/common/faceted-browse/facet-render/value.phtml:33
 msgid "See more"
-msgstr ""
+msgstr "Pokaż więcej"
 
 #: view/common/faceted-browse/facet-render/item-set.phtml:20
 #: view/common/faceted-browse/facet-render/resource-class.phtml:20
 #: view/common/faceted-browse/facet-render/resource-template.phtml:20
 #: view/common/faceted-browse/facet-render/value.phtml:34
 msgid "See less"
-msgstr ""
+msgstr "Pokaż mniej"
 
 #: view/common/faceted-browse/navigation-link-form/faceted-browse.phtml:9
 msgid "Select a page"
-msgstr ""
+msgstr "Wybierz stronę"
 
 #: view/faceted-browse/site-admin/category/column-form.phtml:6
 msgid "Configure column"
-msgstr ""
+msgstr "Konfiguracja kolumny"
 
 #: view/faceted-browse/site-admin/category/facet-form.phtml:7
 msgid "Configure facet"
-msgstr ""
+msgstr "Konfiguracja fasety"
 
 #: view/faceted-browse/site-admin/category/facet-form.phtml:10
 msgid "Facet type"
-msgstr ""
+msgstr "Typ fasety"
 
 #: view/faceted-browse/site-admin/category/facet-row.phtml:12
 msgid "Edit facet"
-msgstr ""
+msgstr "Edytuj fasetę"
 
 #: view/faceted-browse/site-admin/category/facet-row.phtml:16
 msgid "Remove facet"
-msgstr ""
+msgstr "Usuń fasetę"
 
 #: view/faceted-browse/site-admin/category/facet-row.phtml:20
 msgid "Restore facet"
-msgstr ""
+msgstr "Przywróć fasetę"
 
 #: view/faceted-browse/site-admin/category/form.phtml:17
 msgid "Edit Category"
-msgstr ""
+msgstr "Edytuj kategorię"
 
 #: view/faceted-browse/site-admin/category/form.phtml:17
 #: view/faceted-browse/site-admin/category/form.phtml:19
@@ -107,95 +123,95 @@ msgstr ""
 #: view/faceted-browse/site-admin/page/form.phtml:14
 #: view/faceted-browse/site-admin/page/form.phtml:16
 msgid "Faceted Browse"
-msgstr ""
+msgstr "Faceted Browse"
 
 #: view/faceted-browse/site-admin/category/form.phtml:19
 msgid "Add Category"
-msgstr ""
+msgstr "Dodaj kategorię"
 
 #: view/faceted-browse/site-admin/category/form.phtml:31
 #: view/faceted-browse/site-admin/page/form.phtml:28
 msgid "Save and&hellip;"
-msgstr ""
+msgstr "Zapisz i&hellip;"
 
 #: view/faceted-browse/site-admin/category/form.phtml:33
 msgid "Return to page"
-msgstr ""
+msgstr "Powrót do strony"
 
 #: view/faceted-browse/site-admin/category/form.phtml:34
 msgid "Stay on this category"
-msgstr ""
+msgstr "Pozostań w tej kategorii"
 
 #: view/faceted-browse/site-admin/category/form.phtml:42
 #: view/faceted-browse/site-admin/page/form.phtml:39
 msgid "Page edit"
-msgstr ""
+msgstr "Edycja strony"
 
 #: view/faceted-browse/site-admin/category/form.phtml:44
 msgid "Category edit"
-msgstr ""
+msgstr "Edycja kategorii"
 
 #: view/faceted-browse/site-admin/category/form.phtml:44
 msgid "Category add"
-msgstr ""
+msgstr "Dodanie kategorii"
 
 #: view/faceted-browse/site-admin/category/form.phtml:62
 msgid "Facets"
-msgstr ""
+msgstr "Fasety"
 
 #: view/faceted-browse/site-admin/category/show-all-table.phtml:2
 msgid "Add all"
-msgstr ""
+msgstr "Dodaj wszystko"
 
 #: view/faceted-browse/site-admin/category/show-all-table.phtml:6
 msgid "Available"
-msgstr ""
+msgstr "Available"
 
 #: view/faceted-browse/site-admin/category/show-all-table.phtml:7
 msgid "Count"
-msgstr ""
+msgstr "Count"
 
 #: view/faceted-browse/site-admin/category/show-all-table.phtml:20
 #: view/faceted-browse/site/page/browse.phtml:9
 msgid "There are no results."
-msgstr ""
+msgstr "Brak wyników."
 
 #: view/faceted-browse/site-admin/page/browse.phtml:23
 msgid "Date created"
-msgstr ""
+msgstr "Data utworzenia"
 
 #: view/faceted-browse/site-admin/page/browse.phtml:80
 #, php-format
 msgid "No pages found. %s"
-msgstr ""
+msgstr "Nie znaleziono stron. %s"
 
 #: view/faceted-browse/site-admin/page/browse.phtml:81
 msgid "Add a new page."
-msgstr ""
+msgstr "Dodaj nową stronę."
 
 #: view/faceted-browse/site-admin/page/browse.phtml:84
 msgid "No pages found."
-msgstr ""
+msgstr "Nie znaleziono żadnych stron."
 
 #: view/faceted-browse/site-admin/page/category-row.phtml:10
 msgid "Edit category"
-msgstr ""
+msgstr "Edytuj kategorię"
 
 #: view/faceted-browse/site-admin/page/form.phtml:14
 msgid "Edit Page"
-msgstr ""
+msgstr "Edytuj stronę"
 
 #: view/faceted-browse/site-admin/page/form.phtml:16
 msgid "Add Page"
-msgstr ""
+msgstr "Dodaj stronę"
 
 #: view/faceted-browse/site-admin/page/form.phtml:30
 msgid "Return to pages"
-msgstr ""
+msgstr "Powrót do stron"
 
 #: view/faceted-browse/site-admin/page/form.phtml:31
 msgid "Stay on this page"
-msgstr ""
+msgstr "Pozostań na tej stronie"
 
 #: view/faceted-browse/site-admin/page/form.phtml:39
 msgid "Page add"
@@ -203,36 +219,36 @@ msgstr ""
 
 #: view/faceted-browse/site-admin/page/form.phtml:49
 msgid "Categories"
-msgstr ""
+msgstr "Kategorie"
 
 #: view/faceted-browse/site-admin/page/form.phtml:50
 msgid "Add category"
-msgstr ""
+msgstr "Dodaj kategorię"
 
 #: view/faceted-browse/site/page/browse.phtml:3
 msgid "Copy permalink"
-msgstr ""
+msgstr "Kopia permalink"
 
 #: view/faceted-browse/site/page/browse.phtml:3
 msgid "Copied!"
-msgstr ""
+msgstr "Skopiowano!"
 
 #: view/faceted-browse/site/page/categories.phtml:22
 msgid "There are no categories to browse."
-msgstr ""
+msgstr "Nie ma kategorii do przeglądania."
 
 #: view/faceted-browse/site/page/facets.phtml:7
 msgid "Back"
-msgstr ""
+msgstr "Powrót"
 
 #: view/faceted-browse/site/page/facets.phtml:17
 msgid "Instructions"
-msgstr ""
+msgstr "Instrukcje"
 
 #: view/faceted-browse/site/page/page.phtml:24
 #: view/faceted-browse/site/page/page.phtml:25
 msgid "Filters"
-msgstr ""
+msgstr "Filtry"
 
 #: src/ColumnType/ItemSet.php:44
 msgid "Max item sets"
@@ -243,18 +259,20 @@ msgid ""
 "Enter the maximum number of item sets to display. Set to blank to display "
 "all item sets."
 msgstr ""
+"Wprowadź maksymalną liczbę zestawów pozycji do wyświetlenia. Ustaw puste, "
+"aby wyświetlić wszystkie zestawy elementów."
 
 #: src/ColumnType/Unknown.php:45
 msgid "Unknown column type"
-msgstr ""
+msgstr "Nieznany rodzaj kolumny"
 
 #: src/ColumnType/Title.php:20
 msgid "Title (link to resource)"
-msgstr ""
+msgstr "Tytuł (link do zasobu)"
 
 #: src/ColumnType/Value.php:52
 msgid "Select a property…"
-msgstr ""
+msgstr "Wybierz właściwość..."
 
 #: src/Api/Adapter/FacetedBrowsePageAdapter.php:49
 #: src/Api/Adapter/FacetedBrowseCategoryAdapter.php:57
@@ -284,7 +302,7 @@ msgstr ""
 #: src/FacetType/ItemSet.php:45 src/FacetType/ResourceTemplate.php:45
 #: src/FacetType/ResourceClass.php:45 src/FacetType/Value.php:77
 msgid "Select type"
-msgstr ""
+msgstr "Wybierz rodzaj"
 
 #: src/FacetType/ItemSet.php:46
 msgid ""
@@ -293,6 +311,10 @@ msgid ""
 "\"multiple\" select type, users may choose any number of item sets at a time "
 "via a list."
 msgstr ""
+"Wybierz typ wyboru. W przypadku \"pojedynczego\" typu wyboru użytkownicy "
+"mogą wybrać tylko jeden zestaw pozycji naraz za pomocą listy lub menu "
+"rozwijanego. W przypadku \"wielokrotnego\" typu wyboru użytkownicy mogą "
+"wybrać dowolną liczbę zestawów pozycji naraz za pomocą listy."
 
 #: src/FacetType/ItemSet.php:48 src/FacetType/ResourceTemplate.php:48
 #: src/FacetType/ResourceClass.php:48 src/FacetType/Value.php:80
@@ -579,24 +601,26 @@ msgstr ""
 
 #: config/module.config.php:101
 msgid "Error fetching browse markup."
-msgstr ""
+msgstr "Błąd podczas pobierania znaczników przeglądania."
 
 #: config/module.config.php:102
 msgid "Error fetching facet markup."
-msgstr ""
+msgstr "Błąd podczas pobierania znaczników faset."
 
 #: config/module.config.php:103
 msgid "Error fetching category markup."
-msgstr ""
+msgstr "Błąd podczas pobierania znaczników kategorii."
 
 #: config/module.config.php:104
 msgid "Cannot show all. The result set is likely too large."
 msgstr ""
+"Nie można wyświetlić wszystkiego. Zbiór wyników jest prawdopodobnie zbyt "
+"duży."
 
 #: config/module.config.php:105
 msgid "Loading results…"
-msgstr ""
+msgstr "Ładowanie rezultatów..."
 
 #: view/faceted-browse/site/page/facets.phtml:38
 msgid "Clear all"
-msgstr ""
+msgstr "Wyczyść wszystko"
