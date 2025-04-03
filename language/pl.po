@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-18 13:46-0500\n"
-"PO-Revision-Date: 2025-02-28 21:30+0100\n"
+"PO-Revision-Date: 2025-04-02 13:48+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pl\n"
@@ -624,3 +624,7 @@ msgstr "Ładowanie rezultatów..."
 #: view/faceted-browse/site/page/facets.phtml:38
 msgid "Clear all"
 msgstr "Wyczyść wszystko"
+
+#: view/faceted-browse/site/page/browse.phtml:15
+msgid "Back to top"
+msgstr "W górę"
