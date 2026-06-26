@@ -225,6 +225,7 @@ input[type="text"].permalink {
     padding: 0;
     cursor: pointer;
     font-size: inherit;
+    color: inherit;
 }
 
 .visually-hidden {
