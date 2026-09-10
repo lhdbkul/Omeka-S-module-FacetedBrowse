@@ -1,6 +1,7 @@
 <button id="section-sidebar-modal-close" class="close-button" aria-label="<?php echo $this->escapeHtml($this->translate('Close')); ?>" aria-labelledby="section-sidebar-modal-close section-sidebar" type="button">
   <span aria-hidden="true" class="close-glyph"></span>
 </button>
+<button id="categories-return" class="button" type="button"><?php echo $this->translate('Back'); ?></button>
 <fieldset class="facets-container" aria-label="<?php echo $category->name(); ?>">
     <legend><?php echo $category->name(); ?></legend>
     <?php
@@ -15,7 +16,7 @@
     ?>
     <?php if ($helperText): ?>
     <a id="helper-text-expand-collapse" class="button collapse" href="#"" aria-expanded="false"><?php echo $this->escapeHtml($helperTextButtonLabel); ?> </a>
-    <div id="helper-text" class="collapsible" aria-labelledby="helper-text-expand-collapse"><?php echo $category->helperText(); ?></div>
+    <div id="helper-text" class="collapsible"><?php echo $category->helperText(); ?></div>
     <?php endif; ?>
     <div id="facets"
         data-category-id="<?php echo $this->escapeHtml($category->id()); ?>"
@@ -33,5 +34,4 @@
         <?php endforeach; ?>
         <?php echo $this->hyperlink($this->translate('Clear all'), [], ['id' => 'facets-reset', 'class' => 'button']); ?>
     </div>
-    <button id="categories-return" class="button"><?php echo $this->translate('Back'); ?></button>
 </fieldset>
